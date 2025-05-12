@@ -7,7 +7,7 @@ dnl for use with .h includes.
 dnl
 
 AC_DEFUN([AC_PROG_BISON], [
-if test "x$1" = "x" ; then
+if test "x$1" = "x" ; then            
   bison_required_version="2.4"
 else
   bison_required_version="$1"
